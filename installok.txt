@@ -1,0 +1,6 @@
+py -m pip install -U lapx
+py -m pip install --upgrade pip
+python -m ensurepip --upgrade
+py -m pip install opencv-python ultralytics
+
+pip install ultralytics opencv-python
