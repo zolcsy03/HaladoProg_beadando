@@ -6,7 +6,7 @@ import numpy as np
 
 # --- BEÁLLÍTÁSOK ---
 model = YOLO("yolov8s.pt")
-video_path = r'D:\jesz.mp4' 
+video_path = r'jesz.mp4' 
 
 # Csak ezeket a járműveket figyeljük
 VEHICLE_CLASSES = [2, 3, 5, 7] 
@@ -132,4 +132,5 @@ while cap.isOpened():
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
