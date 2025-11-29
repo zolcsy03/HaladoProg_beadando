@@ -3,4 +3,7 @@ py -m pip install --upgrade pip
 python -m ensurepip --upgrade
 py -m pip install opencv-python ultralytics
 
+
 pip install ultralytics opencv-python
+
+A videót külön kell beimportálni mivel a mérete miatt nem lehet hozzáadni.
