@@ -72,7 +72,7 @@ while cap.isOpened():
             direction_text = ""
             color_dir = (0, 255, 0) # Alap zöld
 
-            if len(track) >= 2:
+            if len(track) >= 2: # Mesterséges intelligencia által generált
                 diff = track[-1][1] - track[-2][1]
                 if diff > 2:   # Y nő -> Lefele
                     direction_text = "LE"
